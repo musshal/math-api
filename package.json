@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --coverage",
+    "start": "node src/app.js",
     "lint": "eslint ./ --fix"
   },
   "keywords": [],
@@ -16,5 +17,8 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1"
   }
 }
